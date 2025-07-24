@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lincon Njehia | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    body {
+      background: linear-gradient(to right, rgb(245, 250, 255), rgb(255, 235, 238), rgba(255, 99, 132, 0.15));
+      color: #2c3e50;
+      font-family: 'Inter', sans-serif;
+    }
+
+    header {
+      background: linear-gradient(to right, rgb(33, 150, 243), rgb(255, 99, 132));
+      color: white;
+      padding: 20px 30px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .hero {
+      background: white;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+      margin: 20px;
+    }
+
+    .experience-section {
+      background: rgb(248, 250, 252);
+      padding: 60px 20px;
+      border-top: 4px solid rgba(255, 99, 132, 0.2);
+    }
+
+    .projects-section {
+      background: rgb(255, 255, 255);
+      padding: 60px 20px;
+    }
+
+    .project-card {
+      background: rgb(252, 252, 252);
+      border: 1px solid #ddd;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-section {
+      background: linear-gradient(to bottom, rgb(230, 240, 250), rgba(255, 99, 132, 0.1));
+      padding: 60px 20px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: rgb(255, 99, 132);
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background: rgb(220, 70, 110);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Lincon Njehia</h2>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="about">
+    <img src="https://via.placeholder.com/250" alt="Profile Picture">
+    <div class="hero-content">
+      
+      <p><strong>Hello! I'm Lincon</strong> — a passionate and dedicated frontend developer with a love for clean code and captivating design. I specialize in transforming creative concepts into responsive, user-friendly websites that not only look great but also perform exceptionally. If you're ready to bring your vision to life or enhance an existing site, let's make it happen. <strong>Let's connect and build something amazing!</strong></p>
+      <div class="socials">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="experience-section" id="experience">
+    <div class="experience-content">
+      <h2>Experience</h2>
+      <p>I have one year of experience as a frontend developer, building responsive websites and interactive user interfaces.</p>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>No Projects Yet</h3>
+        <p>Lincon is currently working on exciting web development projects. Stay tuned for updates and awesome creations soon!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <div class="contact-text">
+      <h2>Contact</h2>
+      <p>You can reach me via email at <strong>lincon@example.com</strong> or WhatsApp me at <strong>0712345678</strong>. I'm open to collaborations and freelance work!</p>
+    </div>
+    <div class="contact-form">
+      <form>
+        <div style="margin-top: 30px;">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea rows="6" placeholder="Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
